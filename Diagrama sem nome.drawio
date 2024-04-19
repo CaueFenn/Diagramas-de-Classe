@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2024-04-19T23:36:26.030Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="JGKcXBQtsa60dRY279sB" version="24.2.7" type="device">
+  <diagram name="Página-1" id="AxUEI1zh69kFbszGWVQ4">
+    <mxGraphModel dx="548" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="es-ytdlSkchIfYvsVLLI-55" value="Triangulo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="250" height="234" as="geometry" />
+        </mxCell>
+        <mxCell id="es-ytdlSkchIfYvsVLLI-56" value="&lt;div&gt;+ Altura: double&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="es-ytdlSkchIfYvsVLLI-55">
+          <mxGeometry y="26" width="250" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="es-ytdlSkchIfYvsVLLI-21" value="+ Base: double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="es-ytdlSkchIfYvsVLLI-55">
+          <mxGeometry y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="es-ytdlSkchIfYvsVLLI-57" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="es-ytdlSkchIfYvsVLLI-55">
+          <mxGeometry y="86" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="es-ytdlSkchIfYvsVLLI-58" value="&lt;div&gt;+ Triangulo(double Altura, double Base)&lt;/div&gt;&lt;div&gt;+ double getBase()&lt;/div&gt;&lt;div&gt;+ double setBase()&lt;/div&gt;&lt;div&gt;+ double getAltura()&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ double setAltura()&lt;br&gt;&lt;/div&gt;+ leitura():&lt;div&gt;+ imprimir():&lt;/div&gt;&lt;div&gt;+ getArea();&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="es-ytdlSkchIfYvsVLLI-55">
+          <mxGeometry y="94" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="es-ytdlSkchIfYvsVLLI-64" value="Principal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="200" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="es-ytdlSkchIfYvsVLLI-65" value="+ Triangulo tri = new Triangulo()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="es-ytdlSkchIfYvsVLLI-64">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="es-ytdlSkchIfYvsVLLI-66" value="+ leitura(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="es-ytdlSkchIfYvsVLLI-64">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="es-ytdlSkchIfYvsVLLI-67" value="+ imprimir(): double" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="es-ytdlSkchIfYvsVLLI-64">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="es-ytdlSkchIfYvsVLLI-73" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1.016;exitY=0.429;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="es-ytdlSkchIfYvsVLLI-58" target="es-ytdlSkchIfYvsVLLI-66">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="177" as="sourcePoint" />
+            <mxPoint x="340" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

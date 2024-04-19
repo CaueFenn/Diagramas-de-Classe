@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" modified="2024-04-19T23:36:43.657Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="jEHn3RUca4rOxf6jFC8n" version="24.2.7" type="device">
+  <diagram name="Página-1" id="oyFKhydvEe59EkwlTAQk">
+    <mxGraphModel dx="548" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="478D72lTHpu836xkqPAh-1" value="Tempo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="200" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="478D72lTHpu836xkqPAh-2" value="+ Horas: int&lt;div&gt;+ Minutos: int&lt;/div&gt;&lt;div&gt;+ Segundos: int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="478D72lTHpu836xkqPAh-1">
+          <mxGeometry y="26" width="200" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="478D72lTHpu836xkqPAh-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="478D72lTHpu836xkqPAh-1">
+          <mxGeometry y="90" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="478D72lTHpu836xkqPAh-4" value="+ Tempo()&lt;div&gt;&lt;div&gt;+Tempo(int, int, int)&lt;br&gt;&lt;div&gt;+ getHora(): int&lt;/div&gt;&lt;div&gt;+ setHora(): void&lt;/div&gt;&lt;div&gt;+ getMinuto(): int&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setMinutos(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getSegundos(): int&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setSegundos(): void&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getTempoSegundos(): int&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ IncrementaHora(): void&lt;/div&gt;&lt;div&gt;+ IncrementaMinuto():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ IncrementaSegundo():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ DecrementasHora():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ DecrementaMinuto():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ DecrementaSegundo():&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Leitura(): int&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ mostrarTempo(): String&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="478D72lTHpu836xkqPAh-1">
+          <mxGeometry y="98" width="200" height="262" as="geometry" />
+        </mxCell>
+        <mxCell id="478D72lTHpu836xkqPAh-10" value="Principal" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="334" y="70" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="478D72lTHpu836xkqPAh-7" value="Tempo TP = new Tempo()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="478D72lTHpu836xkqPAh-10">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="478D72lTHpu836xkqPAh-12" value="+ Leitura(): Int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="478D72lTHpu836xkqPAh-10">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="478D72lTHpu836xkqPAh-13" value="+ mostrarTempo(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="478D72lTHpu836xkqPAh-10">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="478D72lTHpu836xkqPAh-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="478D72lTHpu836xkqPAh-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="194" as="sourcePoint" />
+            <mxPoint x="270" y="144" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
